@@ -1,12 +1,12 @@
 let x = +(prompt('enter your number'));
+let y = +(prompt('enter your number'));
+let z = +(prompt('enter your number'));
 
-function isEventOrOdd (){
-    if (x % 2 == 0){
-        alert("is event")
-    } else {
-        alert("is odd")
-    }
+function avregNumber (){
+    let miangin = x + y + z
+    let avg = miangin / 3
+    console.log(avg)
 }
 
-isEventOrOdd()
-
+console.log(avregNumber)
+avregNumber()
